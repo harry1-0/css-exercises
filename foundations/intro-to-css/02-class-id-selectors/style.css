@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+.pink{
+    background-color: #ffc0cb;
+    font-family:"Verdana","DejaVu Sans" ,"sans-serif";
+
+}
+#id-one{
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+.new-font-size{
+    font-size: 24px;
+}
+#id-two{
+    background-color: rgb(0, 255, 0);
+    font-weight: bold;
+}
