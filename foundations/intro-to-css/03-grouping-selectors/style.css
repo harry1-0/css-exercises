@@ -1,1 +1,31 @@
 /* Add CSS Styling */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    
+}
+div{
+    height: fit-content;
+    width: fit-content ;
+    margin: auto; 
+    vertical-align: middle;
+    background-color: aliceblue;
+    padding: 10px 30px;
+}
+.first, .second{
+    font: 28px "Helvetica", "Times New Roman", "sans-serif";  
+    margin-bottom: 0;
+}
+.first{
+    background-color: black;
+    color:white;
+    font-weight: 400;
+}
+.second{
+ background-color: yellow;
+}
