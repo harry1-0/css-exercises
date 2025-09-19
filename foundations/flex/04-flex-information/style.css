@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -23,4 +28,39 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+ 
 }
+
+/* solution */
+div.container{
+  padding:10px;
+  text-align: center;
+}
+div.title{
+  padding:10px;
+}
+div.flowers{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+   margin-bottom: 60px;
+  
+}
+.flower{
+  flex:1 0 0;
+  padding: 10px 20px; 
+  border: 1px solid black;
+}
+/* .one{
+  order:3;
+}
+.one{
+  order:1;
+}
+.one{
+  order:4;
+}
+.one{
+  order:2;
+} */
